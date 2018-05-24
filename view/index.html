@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<title>Photo Video Book</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-family: "Raleway", sans-serif
+    }
+
+    .w3-quarter img {
+        margin-bottom: -6px;
+        cursor: pointer
+    }
+
+    .w3-quarter img:hover {
+        opacity: 0.6;
+        transition: 0.3s
+    }
+
+    .gm-style-mtc {
+        display: none;
+    }
+</style>
+
+<body class="w3-light-grey">
+    <!-- Top menu on small screens -->
+    <header class="w3-container w3-top w3-white w3-xlarge " style="border-bottom: 5px inset #F7B332; height:18vh">
+        <span class="w3-left w3-padding">
+            <a href="/">
+                <img style="height: 15vh; padding-left:5vw" src="/pic/logo.png" alt="Photo Video Book" id="logo">
+            </a>
+        </span>
+        <a id="LoginOrProfile" class="w3-display-right w3-button w3-white" style="font-size: 18px;" onclick="initLogRegister()">Είσοδος</a>
+    </header>
+    <div class="w3-main w3-content" style="max-width:1600px;margin-top:20vh" id="content"></div>
+</body>
+<script src="/js/logRegister.js" type="application/javascript"></script>
+<script src="/js/list.js" type="application/javascript"></script>
+<script src="/js/template.js" type="application/javascript"></script>
+<script src="/js/map.js" type="application/javascript"></script>
+<script src="/js/search.js" type="application/javascript"></script>
+<script src="/js/customAlert.js" type="application/javascript"></script>
+</html>
